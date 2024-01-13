@@ -1,12 +1,5 @@
-/*
- * Buzzer with different tones
- * Date: 18.01.2023
- * Vidyasagar Academy, Akola
- * www.vsa.edu.in
- */
-
-int buzzer = 8; // +ve to pin-8 and -ve to ground
-int sw = 9; // one point of switch to pin-9 and other to ground
+const int buzzer = 8; // +ve to pin-8 and -ve to ground
+const int sw = 9; // one point of switch to pin-9 and other to ground
 
 void setup() 
 {
